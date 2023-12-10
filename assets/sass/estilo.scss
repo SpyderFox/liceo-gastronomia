@@ -1,0 +1,169 @@
+@import'../bootstrap-5.3.2/scss/bootstrap.scss';
+@import'../sass/variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;600;700&family=Roboto&display=swap');
+
+body{
+    background-color: #F2F9F9;
+    font-family: 'Roboto', sans-serif; ;
+}
+.navbar-container{
+    background-image: url(../img/portada-colegio.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.navbar {
+    background-color: #535353bf; 
+    padding: 0;
+
+}
+.btn{
+    background-color: #3F8D88;
+    color: #F2EC0D;
+    border-radius: 34px;
+    border: none;
+    padding: 13px 40px;
+
+}
+.titulo-page{
+    height: 758px;
+}
+.header-nav{
+    margin-right: 190px;
+
+}
+.space{
+    gap: 110px;
+}
+.nav-link{
+    color: white;
+
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin-right: 30px; 
+}
+.video-liceo{
+    position: relative;
+    padding-bottom: 50.625%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.uno{
+    background-image: url(../img/mi.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 964px;
+    width: 50%;
+    
+}
+.dos{
+    background-image: url(../img/vi.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 964px;
+    width: 50%;
+}
+.tras-color{
+    background-color: #3F8D88;
+    width: 535px;
+    height: 535px;
+    z-index: 1;
+    margin: 30px;
+}
+.tras-img2{
+    background-image: url(../img/me-1.png);
+    width: 535px;
+    height: 535px;
+    z-index: 2;
+    position: absolute;
+}
+.tras-img{
+    background-image: url(../img/me-2.png);
+    width: 535px;
+    height: 535px;
+    z-index: 2;
+    position: absolute;
+    
+}
+.tras-color2{
+    background-color: #3F8D88;
+    width: 535px;
+    height: 535px;
+    z-index: 1;
+    margin: -30px;
+}
+.tras-color3{
+    background-color: #3F8D88;
+    width: 605px;
+    height: 504px;
+    z-index: 1;
+    margin: 30px;
+}
+.imagen-admin{
+    background-image: url(../img/imagen-admin.png);
+    width: 605px;
+    height: 504px;
+    z-index: 2;
+    position: absolute;
+}
+.banner{
+    background-color: #E9D485;
+    border-color: gray;
+
+}
+.desc{
+    margin-left: 30%;
+    margin-right: 10%;
+    padding: 10px 40px;
+
+}
+.post{
+    padding: 15px 40px;
+}
+.table{
+    width: 674px ;
+    height:530px;
+}
+.btn-form{
+    padding: 15px 100px;
+}
+.mapa-ubi{
+    height: 500px;
+}
+
+.fondo{
+    background-color: #3F8D88;
+    color: whitesmoke;
+}
+
+.fondoverde{
+    background-color: #3f8d88e4;
+    color: white;
+    width: 65%;
+    height: auto;
+}
+.fondoazul{
+    background-color: #044b9be4;
+    color: white;
+    width: 65%;
+    height: auto;
+}
+
+.fondotwo{
+    background-color: #0F2424;
+    color: white;
+}
+.bajo{
+    text-decoration: none;
+    color: white;
+
+}
