@@ -50,18 +50,11 @@ body{
     color: $color-blanco;
     &:hover{
         color: $verde-claro !important; 
-    color: white;
-    }
-    &:hover{
-        color: #83C5BE !important; 
-    }
-
+}
 }
 .active{
     color: $verde-claro !important;
     font-style: $estilo-bold;
-    color: #83C5BE !important;
-    font-style: bold;
 }
 .nav-links{
     text-decoration: none;
@@ -194,7 +187,6 @@ body{
 footer{
     margin-top: 200px;
 }
-
 
 footer ul li {
     list-style: none;

@@ -12060,8 +12060,6 @@ body {
 .active {
   color: #83C5BE !important;
   font-style: bold;
-  color: #83C5BE !important;
-  font-style: bold;
 }
 
 .nav-links {
@@ -12338,6 +12336,7 @@ h6,
   color: white;
 }
 
+<<<<<<< HEAD
 .tabcontent {
   display: none;
   padding: 20px;
@@ -12360,4 +12359,7 @@ h6,
 .img-fluid {
   max-width: 100%;
   height: auto;
-}/*# sourceMappingURL=estilo.css.map */
+}
+footer {
+  margin-top: 200px;
+}
