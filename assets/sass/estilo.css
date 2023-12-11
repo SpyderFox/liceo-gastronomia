@@ -12051,10 +12051,6 @@ body {
 }
 .nav-link:hover {
   color: #83C5BE !important;
-  color: white;
-}
-.nav-link:hover {
-  color: #83C5BE !important;
 }
 
 .active {
@@ -12067,6 +12063,10 @@ body {
   color: black;
   font-size: 22px;
   margin-right: 30px;
+}
+.nav-links:hover {
+  color: #83C5BE;
+  font-style: border;
 }
 
 .video-liceo {
@@ -12336,7 +12336,6 @@ h6,
   color: white;
 }
 
-<<<<<<< HEAD
 .tabcontent {
   display: none;
   padding: 20px;
@@ -12353,13 +12352,23 @@ h6,
 
 .btn.tablinks.active {
   background-color: #2a5b59;
-  color: white;
+  color: #FCFCFC;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
-footer {
-  margin-top: 200px;
-}
+
+@media (max-width: 760px) {
+  .imagen-admin {
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: none;
+    margin-bottom: 15px;
+  }
+  .tras-color3 {
+    display: none;
+  }
+}/*# sourceMappingURL=estilo.css.map */
