@@ -12022,6 +12022,10 @@ body {
   padding: 0;
 }
 
+.nav2 {
+  background-color: #FCFCFC !important;
+}
+
 .btn {
   background-color: #3F8D88;
   color: #E9D485;
