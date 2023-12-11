@@ -37,7 +37,14 @@ body{
 }
 .nav-link{
     color: white;
+    &:hover{
+        color: #83C5BE !important; 
+    }
 
+}
+.active{
+    color: #83C5BE !important;
+    font-style: bold;
 }
 .nav-links{
     text-decoration: none;
@@ -166,4 +173,7 @@ body{
     text-decoration: none;
     color: white;
 
+}
+footer{
+    margin-top: 200px;
 }
