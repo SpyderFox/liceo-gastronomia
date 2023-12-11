@@ -63,7 +63,7 @@ body{
     margin-right: 30px; 
     &:hover{
       color: $verde-claro;
-      font-style: border;
+      font-style: $estilo-bold;
     }
 }
 .video-liceo{
